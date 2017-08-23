@@ -6,9 +6,8 @@
 ## Set Up
 ```
 npm install
-PORT = 80
-HOST = host
-node index.js
+
+PORT=[port] HOST=[host] NODE_ENV="production" MONGO_DB="mongodb://[urlstring]" node index.js
 ```
 
 

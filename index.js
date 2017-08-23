@@ -6,7 +6,15 @@ const mongoose = require('mongoose')
 
 var app = express();
 
-mongoose.connect('mongodb://localhost:introToAuth/introToAuth');
+
+if(process.env.NODE_ENV == "production") {
+	mongoose.connect(process.env.MONGO_DB);
+} else {
+	console.log("LOCAL ENV");
+	mongoose.connect('mongodb://localhost:introToAuth/introToAuth');
+}
+
+
 
 var router = require('./services/router');
 
