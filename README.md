@@ -1,9 +1,9 @@
 # auth-backend_express
 
-##Simple boilerplate to deploy a TodoList app with a NodeJS backend with authentication
+## Simple boilerplate to deploy a TodoList app with a NodeJS backend with authentication
 
 
-##Set Up
+## Set Up
 ```
 npm install
 PORT = 80
@@ -12,7 +12,7 @@ node index.js
 ```
 
 
-##Config
+## Config
 Change the config.js file to change the secret key
 
 Change the following line of code in index.js to configure your mongodb connection
