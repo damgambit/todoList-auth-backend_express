@@ -1,6 +1,6 @@
 # auth-backend_express
 
-##Simple boilerplate to deploy a NodeJS Server with authentication
+##Simple boilerplate to deploy a TodoList app with a NodeJS backend with authentication
 
 
 ##Set Up
@@ -17,7 +17,7 @@ Change the config.js file to change the secret key
 
 Change the following line of code in index.js to configure your mongodb connection
 ```
-	mongoose.connect('mongodb://localhost:introToAuth/introToAuth');
+mongoose.connect('mongodb://localhost:introToAuth/introToAuth');
 ```
 
 
